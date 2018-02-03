@@ -15,6 +15,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+  <repository>
+     <id>3rd_party_p2_updatesite</id>
+     <url>http://localhost:8081/nexus/content/sites/3rd_party_p2_updatesite/</url>
+  </repository>
+</distributionManagement>
+  
   <build>
     <finalName>sunil</finalName>
   </build>
