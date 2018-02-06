@@ -26,7 +26,6 @@ pipeline {
                 withMaven(maven : 'Maven_3_3_9') {
                  
                  sh 'mvn deploy'
-nexusPublisher nexusInstanceId: '1234', nexusRepositoryId: 'releases', packages: [[$class: 'MavenPackage', mavenAssetList: [[classifier: '', extension: 'war', filePath: '/var/lib/jenkins/workspace/hari/target/sunil.war']], mavenCoordinate: [artifactId: 'sunil', groupId: 'com.sunil', packaging: 'war', version: '1']]]
                }
             }
 }
