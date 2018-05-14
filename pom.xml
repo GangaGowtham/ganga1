@@ -17,8 +17,8 @@
   </dependencies>
   <distributionManagement>
   <repository>
-     <id>3rd_party_p2_updatesite</id>
-     <url>http://localhost:8081/nexus/content/sites/3rd_party_p2_updatesite/</url>
+     <id>rep_proj2</id>
+     <url>http://localhost:8081/nexus/content/sites/rep_proj2/</url>
   </repository>
 </distributionManagement>
   
